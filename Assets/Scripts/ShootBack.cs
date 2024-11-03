@@ -11,7 +11,7 @@ public class ShootBack : MonoBehaviour
     public float detectionRange = 10f;
     public float noShootRange = 2f;
 
-    private float shootTimer = 5f;
+    private float shootTimer = 0f;
     private Animator animator;
 
     void Start()

@@ -6,6 +6,7 @@ public class StartGame : MonoBehaviour
     [SerializeField] GameObject mainMenu;
     [SerializeField] GameObject startButton;
     [SerializeField] GameObject exitButton;
+    [SerializeField] GameObject instructions;
 
 
     public void BeginGame()
@@ -14,5 +15,6 @@ public class StartGame : MonoBehaviour
         mainMenu.SetActive(false);
         startButton.SetActive(false);
         exitButton.SetActive(false);
+        instructions.SetActive(false);
     }
 }
